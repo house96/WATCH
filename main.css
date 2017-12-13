@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#clock {
+  width: 700px;
+  height: 700px;
+  margin: 50px auto;
+  border-radius: 50%;
+  background: beige;
+  position: relative;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#sec, #min {
+  display: block;
+  position: absolute;
+  left: 200px;
+  top: 0;
+  /* transition: all ease 500ms; */
+}
